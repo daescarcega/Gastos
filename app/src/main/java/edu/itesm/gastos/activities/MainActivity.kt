@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         initRecycler()
         initViewModel()
     }
+
     private fun initRecycler(){
         gastos = mutableListOf<Gasto>()
         adapter = GastosAdapter(gastos)
